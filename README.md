@@ -1,6 +1,10 @@
 # TIL-Code
 Today I learned Repo
 
+# Javascript 
+- IIFE
+
+
 # typescript
 - basics (types, union, config, interfaces and classes)
 
