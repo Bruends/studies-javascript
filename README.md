@@ -2,12 +2,19 @@
 Today I learned Repo
 
 # Javascript 
-- IIFE
+- [IIFE](javascript/iife.js)
 
+# Angular
+- [bindings](angular/bindings.md)
+    - interpolation
 
 # typescript
-- basics (types, union, config, interfaces and classes)
+- [basics](typescript/basics.ts)
+    - types
+    - union
+    - config
+    - interfaces
+    - classes
 
-
-# NODE
-- Upload de Arquivos com Multer
+# Node
+- [Upload with Multer](node/multer.js)

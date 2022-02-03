@@ -4,13 +4,13 @@ const multer = require('multer');
 
 const app = express();
 
-// configurando storage do multer
+// multer storage config
 const storage = multer.diskStorage({
     destination: (request, file, cb)  => {
         cb(null, 'uploads/')
     },
 
-    // novo nome do arquivo com a extensão
+    // changing the filename and adding the extension
     filename: (request, file, cb) => {
         cb(null, Date.now() + path.extname(file.originalname));
     } 
@@ -18,8 +18,8 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage });
 
-// rota de upload
-// espera o campo 'img' em uma request do tipo multpart/form-data
+// upload route /imgup
+// get the img field in a multipart/form-data request
 app.post('/imgup', upload.single('img'), (request, response) => {
     console.log("file name: " + JSON.stringify(request.file))
     const fileExtension = request.file.originalname.split(".")[1];

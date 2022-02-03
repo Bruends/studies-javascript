@@ -1,13 +1,12 @@
 // IIFE (Immediately Invoked Function Expression) 
-// funcao que e executada assim que definida
 
-// sintax: 
+// syntax: 
 (function () {
 	console.log("hello");
 })() //hello
 
-// como executam assim que criadas o valor 
-// que vai para a variavel e o retorno e nao a funcao em si
+// because of the immediate execution 
+// the value that goes to the variable is the return directly 
 const pi = (function() {
 	return 3.1415
 })()
@@ -15,7 +14,7 @@ const pi = (function() {
 console.log(pi) // 3.1415
 
 
-// diferente de funcoes normais que passam a propria funcao
+// instead of the function on normal functions
 const pi2 =  function() {
 	return 3.1415;
 }
