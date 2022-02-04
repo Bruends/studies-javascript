@@ -2,11 +2,24 @@
 Today I learned Repo
 
 # Javascript 
+- [Array Functions](javascript/arrayFunctions.js)
+    - map
+    - filter
+    - some
+    - every
+    - forEach
+
+- [Spread And Rest](javascript/spreadAndRest.js)
+
 - [IIFE](javascript/iife.js)
+
 
 # Angular
 - [bindings](angular/bindings.md)
     - interpolation
+    - property binding
+    - event binding
+    - two way data binding
 
 # typescript
 - [basics](typescript/basics.ts)
