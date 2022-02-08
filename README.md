@@ -11,6 +11,8 @@ Today I learned Repo
 
 - [Spread And Rest](javascript/spreadAndRest.js)
 
+- [Scopes](javascript/scope.js)
+
 - [IIFE](javascript/iife.js)
 
 
