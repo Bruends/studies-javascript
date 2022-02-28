@@ -35,7 +35,7 @@ Today I learned Repo
 
 # Node
 - [Upload with Multer](node/imgUpload/multer.js)
-- [Scraping with Puppeeteer](node/scrapping/puppeteer.js)
+- [Scraping with Puppeeteer](node/scraping/puppeteer.js)
     - navigate
     - wait for element load
     - get data from elements
