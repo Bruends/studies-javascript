@@ -32,7 +32,7 @@ Today I learned Repo
 
 
 # Node
-- [Upload with Multer](node/multer.js)
+- [Upload with Multer](node/imgUpload/multer.js)
 - [Scraping with Puppeeteer](node/scrapping/puppeteer.js)
     - navigate
     - wait for element load

@@ -1,9 +1,10 @@
 const express = require('express');
 const path = require('path');
 const multer = require('multer');
+const cors = require('cors');
 
 const app = express();
-
+app.use(cors());
 // multer storage config
 const storage = multer.diskStorage({
     destination: (request, file, cb)  => {
@@ -22,8 +23,6 @@ const upload = multer({ storage });
 // get the img field in a multipart/form-data request
 app.post('/imgup', upload.single('img'), (request, response) => {
     console.log("file name: " + JSON.stringify(request.file))
-    const fileExtension = request.file.originalname.split(".")[1];
-
     
     response.send('Success!');
 });
