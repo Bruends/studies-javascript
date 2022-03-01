@@ -1,4 +1,4 @@
-# Today I Learned Javscript 
+# Today I Learned Javascript 
 studies about Javascript
 
 # Javascript 
