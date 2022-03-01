@@ -1,5 +1,5 @@
-# TIL-Code
-Today I learned Repo
+# Today I Learned Javscript 
+studies about Javascript
 
 # Javascript 
 - [Array Functions](javascript/arrayFunctions.js)
