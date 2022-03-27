@@ -16,6 +16,9 @@ studies about Javascript
 - [IIFE](javascript/iife.js)
 
 
+# LIBS
+- [Redux](redux/redux.js)
+
 # Angular
 - [bindings](angular/bindings.md)
     - interpolation
