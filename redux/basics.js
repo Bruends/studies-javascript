@@ -7,11 +7,12 @@ const { createStore, combineReducers } = require("redux");
 // redux principles
 // -> store is unique
 // -> components can't manipulate store directly
-// -> only 'reducers' can manipulate the store 
+// -> only 'reducers' can manipulate the store
+// -> reducer should return a new instance of the state  
 
 
 // -> actions 
-// an object that describe
+// a plain object that describe
 // the action that generated the new state 
 const INCREMENT = { type: 'increment' }
 const DECREMENT = { type: 'decrement' }

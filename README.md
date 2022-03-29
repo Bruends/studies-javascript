@@ -16,8 +16,21 @@ studies about Javascript
 - [IIFE](javascript/iife.js)
 
 
-# LIBS
-- [Redux](redux/redux.js)
+# Redux
+- [Basics](redux/basics.js)
+    - store
+    - state
+    - actions
+    - reducers
+    - join reducers
+    - subscribe store
+    - dispatch
+
+- [middlewares](redux/middleware.js)
+
+- [thunk](redux/thunk.js)
+    - executing functions as actions
+    - async functions
 
 # Angular
 - [bindings](angular/bindings.md)
