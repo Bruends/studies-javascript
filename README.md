@@ -9,11 +9,14 @@ studies about Javascript
     - every
     - forEach
 
+
 - [Spread And Rest](javascript/spreadAndRest.js)
 
 - [Scopes](javascript/scope.js)
 
 - [IIFE](javascript/iife.js)
+
+- [Console](javascript/console.js)
 
 
 # Redux
@@ -31,6 +34,9 @@ studies about Javascript
 - [thunk](redux/thunk.js)
     - executing functions as actions
     - async functions
+
+- [toolkit](redux/toolkit.js)
+
 
 # Angular
 - [bindings](angular/bindings.md)
