@@ -9,7 +9,6 @@ studies about Javascript
     - every
     - forEach
 
-
 - [Spread And Rest](javascript/spreadAndRest.js)
 
 - [Scopes](javascript/scope.js)
@@ -17,6 +16,8 @@ studies about Javascript
 - [IIFE](javascript/iife.js)
 
 - [Console](javascript/console.js)
+
+- [Debounce](javascript/debounce.js)
 
 
 # Redux
