@@ -17,7 +17,7 @@ studies about Javascript
 
 - [Console](javascript/console.js)
 
-- [Debounce](javascript/debounce.js)
+- [Debounce and Throttle](javascript/debounce-throttle.js)
 
 
 # Redux
