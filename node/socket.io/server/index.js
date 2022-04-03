@@ -16,3 +16,6 @@ io.on('connection', socket => {
 });
 
 http.listen(3000, () => console.log('localhost:3000'));
+
+// reference: Fireship
+// https://www.youtube.com/watch?v=1BfCnjr_Vjg

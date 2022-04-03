@@ -64,3 +64,4 @@ store.subscribe( () => console.log(store.getState()) );
 store.dispatch(INCREMENT);
 store.dispatch(LOGIN);
 
+// reference: Origamid (paid course)
