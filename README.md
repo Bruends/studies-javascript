@@ -57,6 +57,7 @@ studies about Javascript
 
 # Node
 - [Upload with Multer](node/imgUpload/multer.js)
+
 - [Scraping with Puppeeteer](node/scraping/puppeteer.js)
     - navigate
     - wait for element load
@@ -64,3 +65,5 @@ studies about Javascript
     - type on inputs
     - take screenshots and generate pdf from page
     - manipulate dom
+
+- [SocketIO](node/socket.io/)
