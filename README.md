@@ -8,6 +8,7 @@ studies about Javascript
     - some
     - every
     - forEach
+    - reduce
 
 - [Spread And Rest](javascript/spreadAndRest.js)
 

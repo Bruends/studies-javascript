@@ -60,3 +60,16 @@ console.log("has out of stock items ? ", allItemsHaveStock);//false
 items.forEach((item) => {
     console.log(item)
 })
+
+// -> Reduce
+// reduce an array to a single value
+
+//ex: return a sum of all product prices
+let initialValue = 0;
+
+const total = items.reduce( 
+    (previousPrice, currentProduct) => {
+        return previousPrice + currentProduct.price
+    } , initialValue); 
+
+console.log(total);
